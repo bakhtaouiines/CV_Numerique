@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,130,159,1) 0%, rgba(103,56,96,1) 90% );
+}
+img{
+    opacity: 0.7;
+}
+.navbar{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,130,159,1) 0%, rgba(103,56,96,1) 90% );
+}
+#home{
+    font-style: italic;
+}
+#one{
+    font-weight: bolder;
+}
+/*CENTRES D'INTERETS*/
+.hover{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+}
+.hover-overlay{ 
+    position: absolute;
+    top: 0;
+    left: 0; 
+    transition: all 0.4s;
+}
+.hover-1 img {
+    width: 75%;
+    height: 105%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    transition: all 0.3s;
+  }
+  
+  .hover-1-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s;
+  }
+  .hover-1-description {
+    transform: translateY(0.5rem);
+    transition: all 0.4s;
+    opacity: 0;
+ }
+ 
+  .hover-1:hover .hover-1-content {
+    bottom: 2rem;
+}
+  
+  .hover-1:hover .hover-1-description {
+    opacity: 1;
+}
+  
+  .hover-1:hover img {
+    left: 0;
+}
+
+
+
